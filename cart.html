@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MysteryBox.com/cart</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://api.iconify.design/fa-solid/home.svg?color=red'>
+</head>
+<body>
+    
+    <div class="header">
+        <!-- logo here -->
+       <a href="index.html">
+        <div class="header__logo">MysteryBox</div>
+       </a>
+
+        <!-- Button -->
+        <div class="header__btn">
+
+            <i id="open" class="header__btn-open bx bx-menu"></i>
+            <i id="close" class="header__btn-close bx bx-x hide"></i>
+
+        </div>
+
+        <!-- menu item here -->
+        <div id="menu" class="header__menu slide">
+           <a href="index.html"> <div class="item1 item-1">Home</div></a>
+           <a href=""> <div class="item1 item-2">About</div></a>
+           <a href="cart.html"> <div class="item1 item-3">Cart</div></a>
+        </div>
+       <div class="cart">
+        <div id="cartAmount" class="cartAmount">00</div>
+        <i class='bx bx-cart Cart1' ></i>
+       </div>
+    </div>
+
+    <div id="label" class="text-center"></div>
+
+    <div class="shopping-cart" id="shopping-cart"></div>
+
+    
+    <div class="footer">
+        <p>Copyright Claimrd by Saiful Alam 2022</p>
+    </div>
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="src/data.js"></script>
+    <script src="src/cart.js"></script>
+    
+</body>
+
+</html>
